@@ -1,0 +1,173 @@
+@font-face {
+    font-family: 'SF Pro Display Regular';
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+@font-face {
+    font-family: 'Helvetica';
+    src: url('../fonts/SFPRODISPLAYREGULAR.OTF');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 16px;
+    font-family: 'Helvetica', sans-serif;
+    -webkit-text-size-adjust: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#principal{
+    min-height: 640px;
+    max-width: 100%;
+    color: #1c1e21;
+}
+
+.principal {
+    padding: 72px 0 112px;
+    background-color: #f0f2f5;
+}
+
+.principal__contenido {
+    padding: 20px 0;
+    margin: 0 auto;
+    display: flex;
+    width: 980px;
+    justify-content: space-between;
+
+}
+
+.principal .principal__contenido .principal__contenido__mensaje {
+    width: 500px;
+}
+
+.principal__contenido .principal__contenido__mensaje__imagen {
+    padding: 112px 0 16px;
+}
+
+.principal__contenido .principal__contenido__mensaje__imagen img {
+    height: 106px;
+    margin: -28px;
+    
+}
+
+.principal .principal__contenido__mensaje__texto p {
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 400;
+    width: auto;
+    letter-spacing: 0.05rem;
+}
+
+.principal .principal__contenido .principal__contenido__inicioSesion {
+    height: 456px;
+    width: 396px;
+}
+
+.principal .principal__contenido .principal__contenido__inicioSesion__tarjeta {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .entrada {
+    height: 50px;
+    margin-bottom: 12px;
+    padding: 15px;
+    font-size: 1rem;
+    border: 1px solid silver;
+    border-radius: 4px;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .entrada:focus {
+    border-color: #1877f2;
+    outline-offset: 0px;
+    outline: none;
+    box-shadow: 0px 0px 1px 1px lightblue;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .entrada:focus::placeholder {
+    color: #c5c6d0;
+}
+
+/* .principal .principal__contenido__inicioSesion__tarjeta .contraseña:focus {
+    border-color: aqua;
+    outline-offset: 0px;
+    outline: none;
+} */
+
+.principal .principal__contenido__inicioSesion__tarjeta button {
+    background-color: #1877f2;
+    color: white;
+    font-size: 1.2rem;
+    padding: 10px;
+    margin-top: 4px;
+    border-radius: 8px;
+    font-weight: 600;
+    border: none;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta button:hover {
+    cursor: pointer;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .ContraseñaOlvidada {
+    text-align: center;
+    margin: 16px 0;
+    font-size: 14px;
+    letter-spacing: .025rem;
+    color: #1877f2;
+    font-weight: normal;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .ContraseñaOlvidada:hover {
+    text-decoration: underline;
+}
+
+
+.principal .principal__contenido__inicioSesion__tarjeta hr {
+    margin-top: 6px;
+}
+
+.principal .principal__contenido__inicioSesion__tarjeta .CrearCuenta {
+    
+    text-align: center;
+    padding: 15px;
+    background-color: #42b72a;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: 600;
+    letter-spacing: .067rem;
+    width: 190px;
+    margin: 22px auto 7px;
+}
+
+
+
+.principal .principal__contenido__inicioSesion__texto a{
+    font-weight: 600;
+    color: black;
+    letter-spacing: .067rem;
+    font-size: 14px;
+}
+
+.principal .principal__contenido__inicioSesion .principal__contenido__inicioSesion__texto {
+    margin-top: 30px;
+}
+
+.principal .principal__contenido__inicioSesion__texto a:hover {
+    text-decoration: underline;
+}
